@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sliding-rate-limiter-redis"
+version = "1.0.0"
+description = "Redis-backed sliding-window rate limiter for Python"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "aproothi" }]
+keywords = ["rate-limiter", "redis", "sliding-window", "rate-limiting", "throttle"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.9"
+dependencies = ["redis>=4.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/aproothi/rate-limiter"
+Repository = "https://github.com/aproothi/rate-limiter"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["rate_limiter"]

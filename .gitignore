@@ -1,0 +1,12 @@
+.claude/
+node_modules/
+dist/
+*.js.map
+.env
+
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+.venv/
+.pytest_cache/
