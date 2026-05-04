@@ -1,0 +1,1 @@
+{"type":"module","dependencies":{"@aproothi/sliding-rate-limiter-redis":"^1.0.0","ioredis":"^5.10.1"}}
