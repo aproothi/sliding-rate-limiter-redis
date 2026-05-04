@@ -19,7 +19,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": ["rate-limiter", "redis", "sliding-window", "rate-limiting", "throttle"],
-  "author": "aproothi",
+  "author": "Akshit Proothi",
   "license": "MIT",
   "peerDependencies": {
     "ioredis": ">=5.0.0"

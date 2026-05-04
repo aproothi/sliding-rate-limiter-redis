@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Redis-backed sliding-window rate limiter for Python"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "aproothi" }]
+authors = [{ name = "Akshit Proothi", email = "aproothi@gmail.com" }]
 keywords = ["rate-limiter", "redis", "sliding-window", "rate-limiting", "throttle"]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -29,8 +29,8 @@ dependencies = ["redis>=4.0.0"]
 dev = ["pytest>=7.0"]
 
 [project.urls]
-Homepage = "https://github.com/aproothi/rate-limiter"
-Repository = "https://github.com/aproothi/rate-limiter"
+Homepage = "https://github.com/aproothi/sliding-rate-limiter-redis"
+Repository = "https://github.com/aproothi/sliding-rate-limiter-redis"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
