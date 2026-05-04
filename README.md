@@ -1,9 +1,9 @@
-# rate-limiter
+# sliding-rate-limiter-redis
 
 A Redis-backed **sliding window** rate limiter available as both an NPM package and a PyPI package.
 
-[![Node.js CI](https://github.com/aproothi/rate-limiter/actions/workflows/node-ci.yml/badge.svg)](https://github.com/aproothi/rate-limiter/actions/workflows/node-ci.yml)
-[![Python CI](https://github.com/aproothi/rate-limiter/actions/workflows/python-ci.yml/badge.svg)](https://github.com/aproothi/rate-limiter/actions/workflows/python-ci.yml)
+[![Node.js CI](https://github.com/aproothi/sliding-rate-limiter-redis/actions/workflows/node-ci.yml/badge.svg)](https://github.com/aproothi/sliding-rate-limiter-redis/actions/workflows/node-ci.yml)
+[![Python CI](https://github.com/aproothi/sliding-rate-limiter-redis/actions/workflows/python-ci.yml/badge.svg)](https://github.com/aproothi/sliding-rate-limiter-redis/actions/workflows/python-ci.yml)
 [![npm](https://img.shields.io/npm/v/@aproothi/sliding-rate-limiter-redis)](https://www.npmjs.com/package/@aproothi/sliding-rate-limiter-redis)
 [![PyPI](https://img.shields.io/pypi/v/sliding-rate-limiter-redis)](https://pypi.org/project/sliding-rate-limiter-redis)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
