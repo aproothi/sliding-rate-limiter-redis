@@ -3,8 +3,8 @@
 A Redis-backed **sliding window** rate limiter for Python.
 
 [![PyPI](https://img.shields.io/pypi/v/sliding-rate-limiter-redis)](https://pypi.org/project/sliding-rate-limiter-redis)
-[![Python CI](https://github.com/aproothi/rate-limiter/actions/workflows/python-ci.yml/badge.svg)](https://github.com/aproothi/rate-limiter/actions/workflows/python-ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aproothi/rate-limiter/blob/main/LICENSE)
+[![Python CI](https://github.com/aproothi/sliding-rate-limiter-redis/actions/workflows/python-ci.yml/badge.svg)](https://github.com/aproothi/sliding-rate-limiter-redis/actions/workflows/python-ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aproothi/sliding-rate-limiter-redis/blob/main/LICENSE)
 
 ## Why sliding window?
 
@@ -99,7 +99,7 @@ Raised by `consume()` when the limit is exceeded. Carries `retry_after`, `reset_
 
 ## Full documentation
 
-See the [GitHub repository](https://github.com/aproothi/rate-limiter) for architecture details, Node.js package, benchmarks, and more.
+See the [GitHub repository](https://github.com/aproothi/sliding-rate-limiter-redis) for architecture details, Node.js package, benchmarks, and more.
 
 ## License
 
